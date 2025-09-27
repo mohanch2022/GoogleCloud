@@ -30,7 +30,7 @@ def hello_world(request):
     table_id = "handy-implement-473404-g5.Mydataset.Employee"
 
 
-    uri = "gs://cloud_functions_dataset/employees.csv"
+    uri = "gs://myfiles_cloud_test/employees.csv"
 
     load_job = client.load_table_from_uri(
     uri, table_id, job_config=job_config
