@@ -27,7 +27,7 @@ def hello_world(request):
     source_format=bigquery.SourceFormat.CSV,
     )
 
-    table_id = "my-website-308711.cloud_functions.employee"
+    table_id = "handy-implement-473404-g5.Mydataset.Employee"
 
 
     uri = "gs://cloud_functions_dataset/employees.csv"
