@@ -16,6 +16,7 @@ def hello_world(request):
         bigquery.SchemaField("HIRE_DATE", "STRING"),
         bigquery.SchemaField("JOB_ID", "STRING"),
         bigquery.SchemaField("SALARY", "FLOAT"),
+        bigquery.SchemaField("COMMISSION_PCT", "FLOAT"),
         bigquery.SchemaField("MANAGER_ID", "STRING"),
         bigquery.SchemaField("DEPARTMENT_ID", "STRING"),
 
